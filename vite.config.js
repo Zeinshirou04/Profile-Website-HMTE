@@ -10,8 +10,8 @@ export default defineConfig({
         }),
         react(),
     ],
-    server: {
-        host: '192.168.1.2',
-        port: 5173
-    }
+    // server: {
+    //     host: '192.168.0.112',
+    //     port: 5173
+    // }
 });
