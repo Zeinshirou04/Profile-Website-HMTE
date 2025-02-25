@@ -100,22 +100,22 @@ function Homepage() {
                 </div>
             </StrukturalSection>
             <PengurusSection organizationLabel="HIMPUNAN MAHASISWA TEKNIK ELEKTRO">
-                <figure id="ketua-preview-wrapper" className="w-full h-full relative">
+                {/* <figure id="ketua-preview-wrapper" className="w-full h-full relative">
                     <img className="absolute h-full w-auto left-1/2 -translate-x-1/2" src="assets/img/png/fais-single-nobg.png" alt="" />
                     <figcaption className="absolute bottom-0 left-1/2 -translate-x-1/2 bg-slate-300 p-4">
                         <header className="font-bold">
                             <h4>Ketua HMTE 2024 / 2025</h4>
                         </header>
                     </figcaption>
-                </figure>
-                {/* <PengurusPreview>
+                </figure> */}
+                <PengurusPreview>
                     <img loading="lazy"
                         className="h-full object-cover"
                         src={PengurusHMTE[pengurusPreviewKey]['src']}
                         alt={PengurusHMTE[pengurusPreviewKey]['alt']}
                     />
                 </PengurusPreview>
-                <PengurusItemList images={PengurusHMTE} /> */}
+                <PengurusItemList images={PengurusHMTE} />
             </PengurusSection>
             <DokumentasiSection organizationLabel="HIMPUNAN MAHASISWA TEKNIK ELEKTRO">
                 <DokumentasiCard>
