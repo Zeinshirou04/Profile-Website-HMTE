@@ -40,12 +40,12 @@ const StrukturalContentItems = () => {
             <a href="#pengurus-section" onClick={() => {
                 setPengurusPreviewKey(key);
             }}>
-                <li id={`struktural-${key}-wrapper`} className="flex flex-col items-center hover:cursor-pointer">
+                <li id={`struktural-${key}-wrapper`} className="flex flex-col items-center hover:cursor-pointer text-white">
                     <header id="struktural-ketua-num" className="font-bold">
                         <h5 className="text-4xl 2xl:text-5xl">{index > 10 ? index : `0${index + 1}`}</h5>
                     </header>
                     <header id="struktural-ketua-label">
-                        <h6 className="text-2xl 2xl:text-3xl">{value}</h6>
+                        <h6 className="text-2xl 2xl:text-3xl text">{value}</h6>
                     </header>
                 </li>
             </a>

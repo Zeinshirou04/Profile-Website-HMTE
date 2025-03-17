@@ -63,7 +63,15 @@ function Homepage() {
                     </header>
                 </div>
             </HeroSection>
-            <section id="visi-misi-section" className="w-full h-dvh px-7 md:px-10 lg:px-14 xl:px-16 py-12 flex flex-col justify-center sm:h-auto lg:flex-row lg:py-24 xl:py-32 2xl:py-40 gap-12">
+            <section id="visi-misi-section" className="w-full h-dvh px-7 md:px-10 lg:px-14 xl:px-16 py-12 flex flex-col justify-center sm:h-auto lg:flex-row lg:py-24 xl:py-32 2xl:py-40 gap-12 relative">
+                <figure id="visi-misi-background" className="absolute w-full h-full -z-10 left-0 top-0 flex flex-col lg:flex-row items-center justify-center opacity-15">
+                    <div className="flex w-full h-full gap-12 justify-center items-center">
+                        <img className="w-32 md:w-36 lg:w-44 2xl:w-52" src="favicon.ico" alt="Logo HMTE - Background Visi Misi" />
+                    </div>
+                    <div className="flex w-full h-full gap-12 justify-center items-center">
+                        <img className="w-32 md:w-36 lg:w-44 2xl:w-52" src="assets/img/icon/abithah_Impeesaa.ico" alt="Logo Kabinet - Background Visi Misi" />
+                    </div>
+                </figure>
                 <article id="visi-section" className="w-full flex flex-col gap-4">
                     <header className="w-full font-bold text-black">
                         <h3 id="visi-title" className="text-4xl 2xl:text-5xl text-center">VISI</h3>
@@ -93,7 +101,7 @@ function Homepage() {
                 </article>
             </section>
             <StrukturalSection sectionLabel="STRUKTURAL HMTE">
-                <div id="struktural-content-wrapper" className="bg-slate-300 w-full h-auto py-12 2xl:py-24 px-7 md:px-10 lg:px-14 xl:px-16">
+                <div id="struktural-content-wrapper" className="bg-[#0111d1] w-full h-auto py-12 2xl:py-24 px-7 md:px-10 lg:px-14 xl:px-16">
                     <ol id="struktural-content" className="w-full grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-y-12 2xl:gap-y-24 list-none">
                         <StrukturalContentItems />
                     </ol>
@@ -128,19 +136,6 @@ function Homepage() {
                                 loading="lazy"
                             />
                         </div>
-                        <figcaption className="w-full text-center py-8 px-4">
-                            <header className="w-full text-4xl font-bold">
-                                <h4>Dokumentasi B</h4>
-                            </header>
-                            <p className="mt-4">
-                                Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit. Ullam, nostrum ipsam! Iste
-                                consequatur similique, quas repellendus hic
-                                quae tempora quis, ut doloremque iure sequi
-                                nesciunt corrupti. Voluptatum soluta vitae
-                                necessitatibus.
-                            </p>
-                        </figcaption>
                     </figure>
                 </DokumentasiCard>
                 <DokumentasiCard>
@@ -152,19 +147,6 @@ function Homepage() {
                                 alt="Dokumentasi HMTE - Dokumentasi - B"
                             />
                         </div>
-                        <figcaption className="w-full text-center py-8 px-4">
-                            <header className="w-full text-4xl font-bold">
-                                <h4>Dokumentasi B</h4>
-                            </header>
-                            <p className="mt-4">
-                                Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit. Ullam, nostrum ipsam! Iste
-                                consequatur similique, quas repellendus hic
-                                quae tempora quis, ut doloremque iure sequi
-                                nesciunt corrupti. Voluptatum soluta vitae
-                                necessitatibus.
-                            </p>
-                        </figcaption>
                     </figure>
                 </DokumentasiCard>
             </DokumentasiSection>
