@@ -20,7 +20,7 @@ const PengurusSection = ({ organizationLabel = '', sectionLabel = 'PENGURUS', ch
 const PengurusPreview = ({ children }) => {
     return (
         <figure id="pengurus-preview-wrapper" className="max-w-full w-full xl:w-3/4 h-3/4 xl:h-full overflow-x-auto">
-            <div className="h-full w-max">
+            <div className="h-full w-max lg:w-full">
                 {children}
             </div>
         </figure>

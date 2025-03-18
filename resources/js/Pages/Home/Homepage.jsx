@@ -101,7 +101,7 @@ function Homepage() {
                 </article>
             </section>
             <StrukturalSection sectionLabel="STRUKTURAL HMTE">
-                <div id="struktural-content-wrapper" className="bg-[#0111d1] w-full h-auto py-12 2xl:py-24 px-7 md:px-10 lg:px-14 xl:px-16">
+                <div id="struktural-content-wrapper" className="bg-[#787474] w-full h-auto py-12 2xl:py-24 px-7 md:px-10 lg:px-14 xl:px-16">
                     <ol id="struktural-content" className="w-full grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-y-12 2xl:gap-y-24 list-none">
                         <StrukturalContentItems />
                     </ol>
@@ -118,7 +118,7 @@ function Homepage() {
                 </figure> */}
                 <PengurusPreview>
                     <img loading="lazy"
-                        className="h-full object-cover"
+                        className="h-full w-max lg:w-full object-cover"
                         src={PengurusHMTE[pengurusPreviewKey]['src']}
                         alt={PengurusHMTE[pengurusPreviewKey]['alt']}
                     />
